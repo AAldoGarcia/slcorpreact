@@ -1,0 +1,102 @@
+/*====================================
+=             MISIÓN Y VISIÓN        =
+====================================*/
+/* Sección de valores - Estilo base (desktop) */
+.values {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vw;
+  background: #363D57;
+  color: white;
+  gap: 5vw;
+  max-width: 80vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Contenedor del texto */
+.valuesContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 2rem;
+  max-width: 40rem;
+}
+
+/* Títulos de valores */
+.values h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+}
+
+/* Párrafos de valores */
+.values p {
+  max-width: 40rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #E5E7EB;
+}
+
+/* Contenedor de la imagen */
+.valuesImg {
+  flex: 1;
+  max-width: 40rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Imagen de valores */
+.valuesImg img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.valuesImg img:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .values {
+    flex-direction: column;
+    max-width: 90vw;
+    padding: 5vh 5vw;
+    gap: 3rem;
+  }
+
+  .valuesContent, .valuesImg {
+    max-width: 100%;
+  }
+
+  .valuesImg {
+    justify-content: center;
+    order: -1; /* Mueve la imagen arriba en móviles */
+  }
+
+  .values h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .values {
+    padding: 4vh 4vw;
+  }
+
+  .values h2 {
+    font-size: 1.5rem;
+  }
+
+  .values p {
+    font-size: 0.9rem;
+  }
+}

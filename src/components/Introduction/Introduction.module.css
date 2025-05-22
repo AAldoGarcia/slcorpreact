@@ -1,0 +1,116 @@
+/*====================================
+=            INTRODUCTION            =
+====================================*/
+.introduction {
+  text-align: center;
+  padding: 5vh 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+/* Título de la sección */
+.introduction h2 {
+  margin-bottom: 1vh;
+  font-size: 2rem;
+  color: #1F2937;
+}
+
+/* Párrafo de la introducción */
+.introduction p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #4B5563;
+}
+
+/*====================================
+=            DIFERENCIADORES         =
+====================================*/
+
+/* Contenedor principal */
+.diferenciadoresContainer {
+  width: 100%;
+  margin-top: 4vh;
+}
+
+/* Contenedor de diferenciadores */
+.diferenciadores {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+}
+
+/* Tarjeta individual */
+.diferenciador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #F9FAFB;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.diferenciador:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.diferenciador h3 {
+  margin: 1.5rem 0 1rem;
+  color: #111827;
+  font-size: 1.2rem;
+}
+
+.diferenciador p {
+  max-width: 200px;
+  color: #6B7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .introduction {
+    padding: 5vh 5vw;
+  }
+  
+  .diferenciadores {
+    gap: 2rem;
+  }
+  
+  .diferenciador {
+    max-width: 100%;
+    min-width: 250px;
+  }
+}
+
+.iconPlaceholder {
+  width: 120px;
+  height: 120px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #AD7B1D;
+  font-size: 2rem;
+}
+
+.icon-error {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #ff6b6b;
+}

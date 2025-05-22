@@ -1,0 +1,117 @@
+.team {
+  background: #13162e;
+  color: white;
+  min-height: 100vh;
+  padding-bottom: 3vh;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.team h2 {
+  margin-bottom: 0.5em;
+}
+
+.team p {
+  margin-bottom: 2em;
+}
+
+
+.slider {
+  width: 100%;
+  max-width: 98vw;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 4vh 0;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.carousel {
+  position: relative;
+  width: 28rem;
+  height: 35rem;
+  perspective: 500px;
+  transform-style: preserve-3d;
+  margin: 0 auto; /* Centra el carrusel dentro del slider */
+}
+
+/* Ajusta el contenedor de las tarjetas */
+.cardContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%; /* Centra inicialmente */
+  transform: 
+    translateX(-50%) /* Compensa el left: 50% para centrar perfectamente */
+    rotateY(calc(var(--offset) * 50deg)) 
+    scaleY(calc(1 + var(--abs-offset) * -0.4))
+    translateZ(calc(var(--abs-offset) * -30rem))
+    translateX(calc(var(--direction) * -5rem));
+  filter: blur(calc(var(--abs-offset) * 1rem));
+  transition: all 0.3s ease-out;
+}
+
+
+
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: hsl(0deg, 0%, calc(100% - var(--abs-offset) * 30%));
+  border-radius: 1rem;
+  color: #9CA3AF;
+  text-align: justify;
+  transition: all 0.3s ease-out;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 0.7em;
+  color: #1F2937;
+}
+
+.card p, .card h2 {
+  transition: all 0.3s ease-out;
+  opacity: var(--active);
+}
+
+.card img {
+  width: 100%;
+    height: 60%; 
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.3em;
+  margin-bottom: 1rem;
+}
+
+.nav {
+  color: white;
+  font-size: 5rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+  background: unset;
+  border: unset;
+}
+
+.nav.left {
+  transform: translateX(-100%) translatey(-50%);
+}
+
+.nav.right {
+  right: 0;
+  transform: translateX(100%) translatey(-50%);
+}
