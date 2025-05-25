@@ -1,0 +1,250 @@
+/* Estilos generales */
+.personPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: #d9534f;
+}
+
+/* Semblanza */
+.semblanza {
+  display: flex;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.semblanzaImg {
+  flex: 1;
+}
+
+.semblanzaImg img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.semblanzaContent {
+  flex: 2;
+}
+
+.semblanzaContent h1 {
+  font-size: 2.5rem;
+  color: #13162e;
+  margin-bottom: 0.5rem;
+}
+
+.semblanzaContent h2 {
+  font-size: 1.5rem;
+  color: #2c7be5;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.semblanzaContent p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.contactButton {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+}
+
+/* Experiencia */
+.experiencia {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+}
+
+.experiencia h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #13162e;
+  margin-bottom: 2rem;
+}
+
+.experiencia ul {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experiencia li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.experiencia li::before {
+  content: "•";
+  color: #2c7be5;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+/* Expertise */
+.expertise {
+  display: flex;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: center;
+}
+
+.expertiseContent {
+  flex: 2;
+}
+
+.expertiseContent h2 {
+  font-size: 2rem;
+  color: #13162e;
+  margin-bottom: 1.5rem;
+}
+
+.expertiseContent ul {
+  list-style-type: none;
+}
+
+.expertiseContent li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.expertiseContent li::before {
+  content: "-";
+  color: #2c7be5;
+  position: absolute;
+  left: 0;
+}
+
+.expertiseImg {
+  flex: 1;
+}
+
+.expertiseImg img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Premios */
+.premios {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+}
+
+.premios h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #13162e;
+  margin-bottom: 3rem;
+}
+
+.premiosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.premioCard {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.premioCard:hover {
+  transform: translateY(-5px);
+}
+
+.premioImg {
+  height: 200px;
+  overflow: hidden;
+}
+
+.premioImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.premioCard h3 {
+  font-size: 1.2rem;
+  color: #13162e;
+  padding: 1rem 1rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.premioCard p {
+  font-size: 0.95rem;
+  color: #666;
+  padding: 0 1rem 1.5rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .semblanza, .expertise {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+  }
+  
+  .semblanzaImg, .expertiseImg {
+    margin-bottom: 2rem;
+  }
+  
+  .semblanzaContent h1 {
+    font-size: 2rem;
+  }
+  
+  .semblanzaContent h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .semblanza, .expertise {
+    padding: 2rem 1rem;
+  }
+  
+  .premiosGrid {
+    grid-template-columns: 1fr;
+  }
+}

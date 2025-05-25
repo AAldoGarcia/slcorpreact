@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
+import React from 'react';
 import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
 import Introduction from '../components/Introduction/Introduction';
 import AboutUs from '../components/AboutUs/AboutUs';
 import Services from '../components/Services/Services';
 import Values from '../components/Values/Values';
-import Team from "../components/Team/Team";
+import TeamSlider from "../components/Team/TeamSlider";
 import Reviews from '../components/Reviews/Reviews';
 import Footer from '../components/Footer/Footer';
 
@@ -53,7 +54,7 @@ const Home = () => {
         <AboutUs />
          <Services />
          <Values />
-            <Team />
+            <TeamSlider isHomePage />
         <Reviews />
       </main>
       <Footer />

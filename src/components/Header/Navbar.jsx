@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './styles.module.css';
 
 const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
@@ -29,7 +30,7 @@ const Navbar = ({ mobileMenuOpen, toggleMobileMenu }) => {
         <li><a href="/">Inicio</a></li>
         <li><a href="/about">Sobre Nosotros</a></li>
         <li><a href="/services">Servicios</a></li>
-        <li><a href="/team">Fuerza Laboral</a></li>
+       <li><Link to="/equipo">Fuerza Laboral</Link></li>
         <li><a href="/contact">Contacto</a></li>
       </ul>
       

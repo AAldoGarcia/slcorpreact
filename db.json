@@ -1,0 +1,298 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Dr. Lucio Heriberto Sosa Cerda",
+      "position": "Experto en Derecho Corporativo y Fiscal",
+      "imageUrl": "/assets/Dr_Lucio_Heriberto_Sosa_Cerda.png",
+      "bio": "Originario de Monterrey, Nuevo León, es Licenciado en Ciencias Jurídicas, titulado por Mérito Académico al haber obtenido el promedio máximo universitario. Reconocido experto en Derecho Corporativo y Fiscal, consolidó su formación académica al obtener el grado de Doctor en Derecho con mención honorífica en el estado de Puebla, con la tesis titulada 'El Federalismo Hacendario como garantía democrática en las políticas públicas de México'.",
+      "experience": [
+        "Abogado en la Administración Local Jurídica de Villahermosa del SAT, SHCP",
+        "Delegado fundador de la Procuraduría de la Defensa del Contribuyente en Tabasco",
+        "Fundador del Capítulo Tabasco del Centro Mexicano de Estudios de lo Penal Tributario, A.C.",
+        "Docente de nivel posgrado en Derecho Fiscal y Administrativo",
+        "Miembro activo de la Academia Mexicana de Derecho Fiscal",
+        "Miembro de número de la International Fiscal Association (IFA-MÉXICO)"
+      ],
+      "expertise": [
+        "Representación jurídica en materia fiscal ante autoridades locales y federales",
+        "Defensa fiscal a través de medios de impugnación y recursos administrativos",
+        "Asesoría en Derecho Corporativo y cumplimiento tributario estratégico",
+        "Formación académica de posgrado en Derecho Fiscal",
+        "Investigación y análisis sobre Hacienda Pública, Federalismo y Fiscalización"
+      ],
+      "awards": [
+        {
+          "title": "Gran Defensor del Contribuyente",
+          "description": "Reconocido a nivel nacional por su destacada labor en defensa fiscal",
+          "imageUrl": "/assets/premio1_Lic_Lucio.jpg"
+        },
+        {
+          "title": "Premio al Mérito Académico en Ciencias Jurídicas",
+          "description": "Otorgado por la Universidad Regiomontana, A.C.",
+          "imageUrl": "/assets/premio2_Lic_Lucio.png"
+        },
+        {
+          "title": "Premio Excelencia Académica Universitaria",
+          "description": "Reconocimiento otorgado por la Federación de Colegios Profesionales de Nuevo León",
+          "imageUrl": "/assets/premio3_Lic_Lucio.png"
+        },
+        {
+          "title": "Medalla Santiago Roel Melo",
+          "description": "Distinción concedida por el H. Colegio de Abogados de Monterrey A.C.",
+          "imageUrl": "/assets/premio4_Lic_Lucio.png"
+        }
+      ],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "lucio.sosa@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 2,
+      "name": "L.C.P. Abdy Abigail López Montuy",
+      "position": "Gerente Contable/Administradora de Consultoría",
+      "imageUrl": "/assets/Lic_Abdy_Abigail_López_Montuy.png",
+      "bio": "Experta en contabilidad y administración financiera con amplia experiencia en consultoría empresarial.",
+      "experience": [
+        "Gerente contable con más de 8 años de experiencia",
+        "Especialista en consultoría fiscal y administrativa",
+        "Implementación de sistemas contables avanzados"
+      ],
+      "expertise": [
+        "Contabilidad avanzada",
+        "Consultoría financiera",
+        "Administración de procesos contables"
+      ],
+      "awards": [
+        {
+          "title": "Reconocimiento en Estrategias Fiscales Emergentes",
+          "description": "Curso impartido por el IMCP en 2022 (Cancún), enfocado en el tratamiento fiscal de personas morales no contribuyentes",
+          "imageUrl": "/assets/premio1_Lic_Abdy.png"
+        },
+        {
+          "title": "Diploma en Gestión Comercial y Comportamiento del Cliente",
+          "description": "Capacitación realizada en 2020 por la Incubadora de Negocios de la UTS, sobre análisis entre cliente y consumidor",
+          "imageUrl": "/assets/premio1_Lic_Abdy.png"
+        },
+        {
+          "title": "Certificado en Planeación Estratégica Empresarial",
+          "description": "Formación sobre Matriz FODA impartida en 2020 por la Incubadora de Negocios de la Universidad Tecnológica del Sur",
+          "imageUrl": "/assets/premio1_Lic_Abdy.png"
+        },
+        {
+          "title": "Distinción en Liderazgo e Innovación Profesional",
+          "description": "Participación en talleres de liderazgo, creatividad e innovación en 2020 (UTS, Tuxtla Gutiérrez)",
+          "imageUrl": "/assets/premio1_Lic_Abdy.png"
+        }
+      ],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "abdy.lopez@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 3,
+      "name": "C.P. Alberto J. Rodríguez Pelayo",
+      "position": "Gerente de Auditoría Financiera",
+      "imageUrl": "/assets/Lic_Alberto_J_Rodríguez_Pelayo.PNG",
+      "bio": "El C.P. Alberto J. Rodríguez Pelayo es Licenciado en Contaduría y cuenta con una sólida trayectoria en el ámbito financiero, bancario y corporativo. Con más de dos décadas de experiencia en instituciones como Banco Nacional de México, Banco Mercantil del Norte y Nacional Financiera.",
+      "experience": [
+        "Más de 20 años en instituciones financieras nacionales, especializándose en banca patrimonial, crédito empresarial y supervisión bancaria",
+        "Participación activa en la implementación de normas internacionales de control financiero, emitidas por el Comité de Basilea",
+        "Asesor financiero en empresas transnacionales, diseñando estrategias de optimización presupuestal y eficiencia operativa",
+        "Evaluación y estructuración de líneas de financiamiento y crédito para empresas de sectores clave como energía, servicios y turismo",
+        "Perito en auditoría y finanzas del Poder Judicial de la Federación desde 2005"
+      ],
+      "expertise": [
+        "Evaluación de riesgos financieros y estructuración de crédito",
+        "Control interno, cumplimiento presupuestal y gestión de procesos contables",
+        "Asesoría estratégica en decisiones financieras y reestructuración empresarial",
+        "Supervisión de sistemas financieros bajo normas ISO y del Comité de Basilea",
+        "Auditoría de calidad con enfoque en eficiencia operativa y cumplimiento fiscal"
+      ],
+      "awards": [
+        {
+          "title": "Reconocimiento Nacional Financiera por Certificación ISO 9000-2000",
+          "description": "Certificación obtenida por el área de Auditoría del Órgano Interno de Control de Nacional Financiera",
+          "imageUrl": "/assets/premio1_Lic_Alberto.png"
+        },
+        {
+          "title": "Diplomado en Evaluación de Riesgos",
+          "description": "Reconocimiento académico por concluir el Diplomado en Evaluación de Riesgos en el Campus Nuevo León del Tecnológico de Monterrey",
+          "imageUrl": "/assets/premio1_Lic_Alberto.png"
+        },
+        {
+          "title": "Nombramiento como Perito en Auditoría y Finanzas",
+          "description": "Desde 2005, el Poder Judicial del Segundo Circuito lo ha reconocido como Perito en la materia de Auditoría y Finanzas",
+          "imageUrl": "/assets/premio1_Lic_Alberto.png"
+        }
+      ],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "alberto.rodriguez@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Lic. Yair E. Torres Alcázar",
+      "position": "Gerente Legal/Corporativo - Asociado de Litigio Fiscal y Compliance",
+      "imageUrl": "/assets/Lic_Yair_Eden_Torres_Alcazar.PNG",
+      "bio": "El Lic. Yair E. Torres Alcázar es un abogado con más de 5 años de experiencia, especializado en litigio laboral y seguridad social. Su enfoque profesional se basa en ofrecer asesoría estratégica y representación legal en conflictos individuales y colectivos.",
+      "experience": [
+        "Asesoría legal en conflictos laborales individuales y colectivos",
+        "Representación ante el Ministerio de Trabajo y tribunales laborales",
+        "Litigio en materia de seguridad social ante IMSS, INFONAVIT y el TFJFA",
+        "Defensa ante procedimientos administrativos de ejecución, visitas domiciliarias y revisiones de gabinete"
+      ],
+      "expertise": [
+        "Litigio en materia laboral y de seguridad social",
+        "Tramitación de recursos de inconformidad ante IMSS e INFONAVIT",
+        "Juicios de nulidad ante el Tribunal Federal de Justicia Administrativa",
+        "Defensa en procedimientos por multas, capitales constitutivos, sustituciones patronales y auditorías fiscales",
+        "Estrategia jurídica en conciliaciones y juicios laborales complejos"
+      ],
+      "awards": [],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "yair.torres@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Lic. Luis Fernando Velázquez Valencia",
+      "position": "Coordinador en Impuestos",
+      "imageUrl": "/assets/Lic_Luis_Fernando_Velázquez_Valencia.png",
+      "bio": "Luis Fernando Velázquez Valencia es Coordinador en Impuestos, con amplia experiencia en la gestión fiscal de personas físicas y morales. Su trabajo está enfocado en la aplicación correcta de las disposiciones tributarias.",
+      "experience": [
+        "Coordinación de estrategias fiscales para contribuyentes individuales y corporativos",
+        "Supervisión de declaraciones y cumplimiento de obligaciones fiscales federales y estatales",
+        "Atención y seguimiento a auditorías fiscales y requerimientos de la autoridad",
+        "Implementación de controles internos orientados al cumplimiento tributario"
+      ],
+      "expertise": [
+        "Planeación fiscal y cumplimiento normativo",
+        "Cálculo y declaración de impuestos ISR, IVA, IEPS, ISN y otros",
+        "Gestión de auditorías fiscales y defensa ante requerimientos",
+        "Control interno fiscal y análisis de riesgos tributarios",
+        "Asesoría financiera con impacto fiscal"
+      ],
+      "awards": [],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "luis.velazquez@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Lic. Viviana Del Valle Cabello Espinoza",
+      "position": "Coordinadora de Recursos Humanos",
+      "imageUrl": "/assets/Lic_Viviana_Del_Valle_Cabello_Espinoza.png",
+      "bio": "Viviana Cabello Espinoza es una profesional dedicada a liderar y coordinar estrategias de gestión del talento humano, enfocadas en el bienestar organizacional y la productividad.",
+      "experience": [
+        "Proyectos de mejora del clima laboral y evaluación del desempeño",
+        "Procesos de capacitación continua y diseño de planes de carrera",
+        "Programas de retención de talento clave",
+        "Atención a conflictos laborales y mediación interna",
+        "Aplicación de la normatividad laboral vigente y control documental"
+      ],
+      "expertise": [
+        "Gestión estratégica de recursos humanos y cultura organizacional",
+        "Reclutamiento, selección y evaluación por competencias",
+        "Formación, capacitación y desarrollo de talento",
+        "Mediación de conflictos y clima laboral",
+        "Aplicación de la legislación laboral mexicana"
+      ],
+      "awards": [],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "viviana.cabello@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Lic. Juan José Sosa De La Fuente",
+      "position": "Auxiliar Contable",
+      "imageUrl": "/assets/Lic_Juan_Jose_Sosa_De_La_Fuente.PNG",
+      "bio": "Juan José Sosa de la Fuente es Auxiliar Contable comprometido con el apoyo operativo en procesos financieros y administrativos clave para la organización.",
+      "experience": [
+        "Registro contable de operaciones financieras",
+        "Integración de pólizas y conciliaciones bancarias",
+        "Manejo de cuentas por pagar y cuentas por cobrar",
+        "Apoyo en la elaboración de estados financieros y reportes administrativos"
+      ],
+      "expertise": [
+        "Contabilidad operativa y registro de movimientos financieros",
+        "Conciliación bancaria y control de pólizas",
+        "Gestión de cuentas por pagar y por cobrar",
+        "Soporte en elaboración de reportes contables",
+        "Precisión, orden y atención al detalle en el manejo de información contable"
+      ],
+      "awards": [],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "juan.sosa@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Ing. Héctor Osiel Sosa",
+      "position": "Administrador de Tecnologías de la Información",
+      "imageUrl": "/assets/Ing_Héctor_Osiel_Sosa_De_La_Fuente.png",
+      "bio": "Héctor Osiel Sosa de la Fuente es Administrador de Tecnologías de la Información (TI), responsable de garantizar el funcionamiento, seguridad y mejora continua de los sistemas tecnológicos dentro de la organización.",
+      "experience": [
+        "Gestión de redes, servidores y soporte técnico",
+        "Administración de software, hardware y sistemas operativos",
+        "Implementación de ciberseguridad y políticas de protección de datos",
+        "Planes de respaldo y recuperación de información",
+        "Alineación tecnológica con procesos de negocio"
+      ],
+      "expertise": [
+        "Gestión de infraestructura TI",
+        "Seguridad informática y protección de datos",
+        "Soporte técnico a usuarios",
+        "Administración de sistemas y redes",
+        "Implementación de soluciones tecnológicas"
+      ],
+      "awards": [],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "hector.sosa@slcorp.com.mx"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lic. Paula Crespo Mijangos",
+      "position": "Auxiliar Contable de Nómina",
+      "imageUrl": "/assets/Lic_Paula_Crespo_Mijangos.png",
+      "bio": "Paula Crespo Mijangos es una profesional en desarrollo enfocada en la gestión contable y administrativa del área de nómina.",
+      "experience": [
+        "Apoyo en la elaboración y revisión de nóminas quincenales y mensuales",
+        "Cálculo de percepciones, deducciones y manejo de incidencias laborales",
+        "Conciliación de cifras y verificación de pagos ante IMSS e INFONAVIT",
+        "Cumplimiento de obligaciones fiscales y de seguridad social"
+      ],
+      "expertise": [
+        "Gestión operativa del ciclo de nómina",
+        "Cálculo de sueldos, deducciones e incidencias laborales",
+        "Conciliación de cifras fiscales y de seguridad social",
+        "Preparación de reportes para contabilidad y dirección administrativa",
+        "Manejo y organización de documentación de personal"
+      ],
+      "awards": [],
+      "contact": {
+        "phone": "99 3131 3088",
+        "whatsapp": "529931313088",
+        "email": "paula.crespo@slcorp.com.mx"
+      }
+    }
+  ]
+}

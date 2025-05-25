@@ -1,12 +1,26 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
 import Card from './card';
 import styles from './styles.module.css';
 
-export default function Carousel({ cards }) {
+export default function Carousel({ cards = [] }) { // Valor por defecto como array vacío
   const [active, setActive] = useState(2);
-  const count = cards.length;
   const MAX_VISIBILITY = 3;
+
+  // Verifica que cards sea un array antes de renderizar
+  if (!Array.isArray(cards)) {
+    console.error('Carousel espera un array en la prop "cards", recibió:', cards);
+    return (
+      <div className={styles.error}>
+        Error: No se pudieron cargar los miembros del equipo
+      </div>
+    );
+  }
+
+  // Si no hay cards, muestra un mensaje
+  if (cards.length === 0) {
+    return <div className={styles.loading}>Cargando miembros del equipo...</div>;
+  }
 
   return (
     <div className={styles.carousel}>
@@ -15,10 +29,11 @@ export default function Carousel({ cards }) {
           <TiChevronLeftOutline />
         </button>
       )}
+      
       {cards.map((card, i) => (
         <div
           className={styles.cardContainer}
-          key={i}
+          key={card.id || i} // Usa card.id si existe, si no usa el índice
           style={{
             '--active': i === active ? 1 : 0,
             '--offset': (active - i) / 3,
@@ -32,7 +47,8 @@ export default function Carousel({ cards }) {
           <Card {...card} />
         </div>
       ))}
-      {active < count - 1 && (
+      
+      {active < cards.length - 1 && (
         <button className={`${styles.nav} ${styles.right}`} onClick={() => setActive(i => i + 1)}>
           <TiChevronRightOutline />
         </button>
