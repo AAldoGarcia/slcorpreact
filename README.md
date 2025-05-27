@@ -86,3 +86,15 @@ Trabajar en equipo, combinar diferentes habilidades y lograr un resultado funcio
 
 [🔗 GitHub – slcorpreact](https://github.com/AAldoGarcia/slcorpreact)
 
+
+## 🆕 Actualización – Implementación de JSON para el equipo
+
+Se integró un archivo .json que centraliza la información del equipo para mejorar la escalabilidad, mantenibilidad y reutilización de datos. Esta implementación impacta en tres áreas principales del sitio:
+
+- Carrusel del equipo (Team.jsx): Ahora consume dinámicamente los datos desde el JSON para mostrar cada miembro con su imagen, nombre y cargo.
+
+- Página del equipo completo (TeamPage.jsx): Genera automáticamente la vista detallada de todos los integrantes a partir del JSON, facilitando la gestión del contenido.
+
+- Páginas individuales de miembros (TeamMember.jsx): Cada perfil individual se genera de forma dinámica utilizando el ID del integrante como parámetro de ruta y extrayendo su información del JSON.
+
+Esta mejora permite que cualquier cambio en los datos (como agregar o actualizar miembros) se realice directamente desde un solo archivo, sin modificar múltiples componentes.
